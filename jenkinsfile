@@ -1,0 +1,9 @@
+node {
+
+    stage 'Stage Checkout'
+
+       git 'https://github.com/dileep789/testserver'
+       checkout scm
+       echo 'Hello World!'
+    
+}
